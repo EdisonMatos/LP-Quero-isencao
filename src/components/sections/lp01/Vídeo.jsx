@@ -28,7 +28,6 @@ export default function Vídeo({}) {
               allowFullScreen
             ></iframe>
           </div>
-          ``
         </SectionWrapper>
       </SectionArea>
     </>
