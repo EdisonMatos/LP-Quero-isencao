@@ -203,10 +203,9 @@ const contentLp01 = {
       },
       card3: {
         icon: <BadgeDollarSign width={32} height={32} color="#4A1215" />,
-        title:
-          "Pagamento facilitado (somente após sucesso, conforme contrato!)",
+        title: "Pagamento Facilitado com Opções Flexíveis",
         description:
-          "Você não precisa se preocupar com pagamentos antecipados. Nosso compromisso é com o resultado, e a remuneração só ocorre após o êxito do processo.",
+          "Oferecemos condições acessíveis para você iniciar seu processo sem complicações. Trabalhamos com opções de pagamento que se ajustam à sua realidade, tornando mais fácil dar o próximo passo com tranquilidade.",
       },
       card4: {
         icon: <ChartNoAxesCombined width={32} height={32} color="#4A1215" />,
