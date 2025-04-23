@@ -53,7 +53,9 @@ export default function AboutParalaxeLP({ logo }) {
                           contentLp01.hero.textArea.ctaButtonAriaLabel
                         }
                         label={contentLp01.about.buttonLabel}
-                        onClick={() => navigate("/whatsapp")}
+                         // onClick={() => navigate("/whatsapp")}
+                         buttonLink={content.texts.links.ctaWhatsapp}
+
                         animation
                         className=""
                         icon={
