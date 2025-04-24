@@ -4,6 +4,7 @@ import MotionDivDownToUp from "../../../animation/MotionDivDownToUp";
 import Button from "../../../interactives/Button";
 import contentLp01 from "../../../../content/contentLp01";
 import { useNavigate } from "react-router-dom";
+import content from "../../../../content/content";
 
 function FullImg() {
   const navigate = useNavigate();
@@ -49,7 +50,9 @@ function FullImg() {
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
                             label={contentLp01.hero.textArea.buttonLabel}
-                            onClick={() => navigate("/whatsapp")}
+                            // onClick={() => navigate("/whatsapp")}
+                            buttonLink={content.texts.links.ctaWhatsapp}
+
                             animation
                             className="w-[100%] "
                             icon={
@@ -129,7 +132,9 @@ function FullImg() {
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
                             label={contentLp01.hero.textArea.buttonLabel}
-                            onClick={() => navigate("/whatsapp")}
+                            // onClick={() => navigate("/whatsapp")}
+                            buttonLink={content.texts.links.ctaWhatsapp}
+
                             animation
                             className="w-[100%] text-black"
                             icon={
